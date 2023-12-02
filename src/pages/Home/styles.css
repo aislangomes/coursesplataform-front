@@ -1,14 +1,7 @@
-*{
+.container-home{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-:root{
-  font-size:62.5%
-}
-
-body{
   font-size: 1.6rem;
   background-color:  rgb(49, 49, 49);
   height: 100vh;
@@ -16,7 +9,7 @@ body{
   color: black;
 }
 
-header{
+.container-header{
   width: 100vw;
   height: 10rem;
   background: rgb(223, 32, 89);
@@ -33,6 +26,19 @@ nav{
   padding: 1rem 6rem;
 }
 
+.my-button{
+  margin:.5rem;
+  height: 5rem;
+  border: none;
+  border-radius: .5rem;
+  width: 8rem;
+  color: black;
+  font-size: 2rem;
+  background: rgb(255, 255, 255);
+  box-shadow: 5px 5px .5em rgba(0, 0, 0, 0.411);
+
+}
+
 nav > input{
   margin:.5rem;
   height: 5rem;
@@ -44,19 +50,8 @@ nav > input{
   box-shadow: 5px 5px .5em rgba(0, 0, 0, 0.411);
 }
 
-.menu > button{
-  margin:.5rem;
-  height: 5rem;
-  border: none;
-  border-radius: .5rem;
-  width: 8rem;
-  color: black;
-  font-size: 2rem;
-  box-shadow: 5px 5px .5em rgba(0, 0, 0, 0.411);
 
-}
-
-button:hover{
+.my-button:hover{
   background: rgb(214, 214, 214);
 }
 
@@ -137,7 +132,7 @@ p{
     border-radius: .5rem;
   }
   
-  .menu > button{
+  .my-button{
     margin:.5rem;
     height: 5rem;
     border: none;
